@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Space X Landing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
+    <script src="javascript.js" defer></script>
+
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="spacex-logo.png" />
+    </nav>
+    <div id="container">
+        <div class="locatie">
+            <h1>Landing locaties<br>🎯</h1>
+            <p class="tekst_locatie">
+                Op de kaart kan je bekijken waar kan er het veiligst geland kan worden?
+            </p>
+        </div>
+        <div class="side">
+            <div class="places">
+
+                <div class="info">
+                    <div id="kaart"></div>
+                    <div class="Landing">
+                        <h3>Bekijk de landing 🌍</h3>
+                        <p>locatie voor Space X</p>
+                        <div class="locaties_marker">
+                            <button id="denemark">🇩🇰</button>
+                            <button id="nederland">🇳🇱</button>
+                            <button id="japan">🇯🇵</button>
+                            <button id="washington">🇺🇸</button>
+                            <button id="egypte">🇪🇬</button>
+                            <button id="sydney">🇦🇺</button>
+                        </div>
+                    </div>
+                </div>
+                <img class="locatie_beeld" src="astronaut.png">
+            </div>
+
+            <div class="nerveus">
+                <div class="Landingjoke">
+
+                    <h3>Nerveus😳</h3>
+                    <p class="tekst_joke">
+                        Ben je zenewachting voor de landing of voor het terug keren naar de aarde ?
+                        Bekijk leuke dadjokes die de kat heeft geschreven.
+                    </p>
+
+                    <img class="joke_beeld" src="cat.png" alt="dadjoke geschreven" />
+
+                    <button id="dadjokeBekijken">Dadjokes bekijken</button>
+                    <div id="joke"></div>
+                </div>
+
+            </div>
+
+            <div class="afscheidscadeau">
+                <div class="spacepakketje">
+                    <h3>Afscheidscadeau🎁</h3>
+                    <p class="gift">
+                        Veilig geland alleen nog naar huis! Ontdek een nieuwe artiest
+                        en genre die je kan luisteren onderweg.
+                        <br>
+                        <b>(P.S het wordt random gekozen)🎶</b>
+                    </p>
+                </div>
+                <button id="cadeauBekijken">Cadeu ontvangen</button>
+                <img class="cadeau_beeld" src="gift.png" alt="nummer en artiest" />
+                <div id="cadeau"></div>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+</body>
+
+</html>
