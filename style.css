@@ -184,6 +184,9 @@ button:active{
     text-align: center;
     padding: 5%;
 }
+#cadeau{
+    padding: 5%;
+}
 
 
 @media only screen and (min-width: 600px) {
@@ -275,11 +278,11 @@ button:active{
         margin-right: auto;
     }
     #dadjokeBekijken{
-        margin-top: 0%;
+        margin-top: 2%;
         margin-bottom: 2%;
       }
     #joke{
-        padding: 0%;
+        padding: 5%;
     }
 
 
@@ -308,6 +311,7 @@ button:active{
 
     .cadeau_beeld{
         width: 30%;
+        padding-bottom: 5%;
     }
 }
 
@@ -351,7 +355,7 @@ button:active{
     .Landingjoke>h3,.spacepakketje>h3{
         font-size: 180%;
     }
-    #joke{
+    #joke,#cadeau{
         padding-bottom: 5%;
         font-size: 150%;
     }
@@ -359,4 +363,16 @@ button:active{
     #cadeauBekijken,#dadjokeBekijken{
         transform: scale(1.2);
     }
+
+    .side2{
+        display: flex;
+        padding-top: 5%;
+    }
+
+    .side2>.nerveus{
+        display: flex;
+        flex-direction: column;
+
+    }
+
 }

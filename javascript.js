@@ -110,7 +110,7 @@ function dadJoke() {
       document.getElementById('joke').innerHTML = vraag + '<br>' + antwoord;
     });
 }
-dadJoke();
+//dadJoke();
 
 document.getElementById('dadjokeBekijken').onclick = function () {
   dadJoke();
@@ -130,7 +130,8 @@ function getGift() {
     })
     .then(function (response) {
       //console.log (response)  
-      alert(response);
+      //alert(response);
+      document.getElementById('cadeau').innerHTML = (response);
     });
 }
 
@@ -139,7 +140,7 @@ document.getElementById('cadeauBekijken').onclick = function () {
 }
 
 document.getElementById("cadeau").style.textAlign = "center";
-document.getElementById("cadeau").style.color = "rgb(220, 8, 73)";
+document.getElementById("cadeau").style.color = "rgb(200, 200, 32)";
 document.getElementById("cadeau").style.fontFamily = "Space Grotesk,sans-serif";
 
 
